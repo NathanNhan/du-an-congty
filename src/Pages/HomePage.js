@@ -1,55 +1,122 @@
 import React from "react";
-
+import arow from "../asset/Fill.png";
 const HomePage = () => {
   return (
     <div>
       <header>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="#">
-              Navbar w/ text
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarText"
-              aria-controls="navbarText"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon" />
-            </button>
-            <div className="collapse navbar-collapse" id="navbarText">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Features
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Pricing
-                  </a>
-                </li>
-              </ul>
-              <span className="navbar-text">
-                Navbar text with an inline element
-              </span>
-            </div>
+        <nav className="container-fluid navigation">
+          <div className="navbar-contain">
+            <ul className="nav-left">
+              <li>
+                <a href="#">Telehealth</a>
+              </li>
+              <li>
+                <a href="#">sdasdasd</a>
+              </li>
+              <li>
+                <a href="#">asdasdasd</a>
+              </li>
+            </ul>
+            <ul className="nav-right">
+              <li>
+                <a href="#">sdasdasd</a>
+              </li>
+              <li>
+                <a href="#">asdasdasd</a>
+              </li>
+            </ul>
           </div>
         </nav>
       </header>
-      <main></main>
-      <footer
-        className="text-center text-lg-start text-white"
-        style={{ backgroundColor: "#45526e" }}
-      >
+      <main>
+        <section className="bottom-nav">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6"></div>
+              <div className="col-lg-6">
+                <div className="button-contain">
+                  <button></button>
+                  <button></button>
+                  <button></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="hero-section">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6">
+                <h1>sadasdasdsad</h1>
+                <p>asdasdasd</p>
+              </div>
+              <div className="col-lg-6"></div>
+            </div>
+          </div>
+        </section>
+        <section className="three-card">
+          <div className="container">
+            <div className="row">
+              <div className="contain-card">
+                <div class="col-lg-6 col-xxl-4 mb-5">
+                  <div class="card bg-light border-0 h-100">
+                    <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                      <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4">
+                        <i class="bi bi-collection"></i>
+                      </div>
+                      <h2 class="fs-4 fw-bold">Fresh new layout</h2>
+                      <p class="mb-0">
+                        With Bootstrap 5, we've created a fresh new layout for
+                        this template!
+                      </p>
+                      <button>Search</button>
+                    </div>
+                  </div>
+                </div>
+                <div className="img-arrow">
+                <img src={arow} alt="" srcset=""  width={20} height={40}/>
+
+                </div>
+                <div class="col-lg-6 col-xxl-4 mb-5">
+                  <div class="card bg-light border-0 h-100">
+                    <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                      <div class="feature  bg-gradient text-white rounded-3 mb-4 mt-n4">
+                        <i class="fa fa-collection"></i>
+                      </div>
+                      <h2 class="fs-4 fw-bold">Fresh new layout</h2>
+                      <p class="mb-0">
+                        With Bootstrap 5, we've created a fresh new layout for
+                        this template!
+                      </p>
+                      <button>Search</button>
+                    </div>
+                  </div>
+                </div>
+                <div className="img-arrow">
+                <img src={arow} alt="" srcset="" />
+
+                </div>
+                <div class="col-lg-6 col-xxl-4 mb-5">
+                  <div class="card bg-light border-0 h-100">
+                    <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                      <div class="feature  bg-gradient text-white rounded-3 mb-4 mt-n4">
+                        <i class="bi bi-collection"></i>
+                      </div>
+                      <h2 class="fs-4 fw-bold">Fresh new layout</h2>
+                      <p class="mb-0">
+                        With Bootstrap 5, we've created a fresh new layout for
+                        this template!
+                      </p>
+                      <button>Search</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer className="text-center text-lg-start text-white footer-section">
         {/* Grid container */}
         <div className="container p-4 pb-0">
           {/* Section: Links */}
@@ -70,23 +137,7 @@ const HomePage = () => {
               {/* Grid column */}
               <hr className="w-100 clearfix d-md-none" />
               {/* Grid column */}
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                <h6 className="text-uppercase mb-4 font-weight-bold">
-                  Products
-                </h6>
-                <p>
-                  <a className="text-white">MDBootstrap</a>
-                </p>
-                <p>
-                  <a className="text-white">MDWordPress</a>
-                </p>
-                <p>
-                  <a className="text-white">BrandFlow</a>
-                </p>
-                <p>
-                  <a className="text-white">Bootstrap Angular</a>
-                </p>
-              </div>
+
               {/* Grid column */}
               <hr className="w-100 clearfix d-md-none" />
               {/* Grid column */}
@@ -133,56 +184,6 @@ const HomePage = () => {
           </section>
           {/* Section: Links */}
           <hr className="my-3" />
-          {/* Section: Copyright */}
-          <section className="p-3 pt-0">
-            <div className="row d-flex align-items-center">
-              {/* Grid column */}
-              <div className="col-md-7 col-lg-8 text-center text-md-start">
-                {/* Copyright */}
-                <div className="p-3">
-                  © 2020 Copyright:
-                  <a className="text-white" href="https://mdbootstrap.com/">
-                    MDBootstrap.com
-                  </a>
-                </div>
-                {/* Copyright */}
-              </div>
-              {/* Grid column */}
-              {/* Grid column */}
-              <div className="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-                {/* Facebook */}
-                <a
-                  className="btn btn-outline-light btn-floating m-1"
-                  role="button"
-                >
-                  <i className="fab fa-facebook-f" />
-                </a>
-                {/* Twitter */}
-                <a
-                  className="btn btn-outline-light btn-floating m-1"
-                  role="button"
-                >
-                  <i className="fab fa-twitter" />
-                </a>
-                {/* Google */}
-                <a
-                  className="btn btn-outline-light btn-floating m-1"
-                  role="button"
-                >
-                  <i className="fab fa-google" />
-                </a>
-                {/* Instagram */}
-                <a
-                  className="btn btn-outline-light btn-floating m-1"
-                  role="button"
-                >
-                  <i className="fab fa-instagram" />
-                </a>
-              </div>
-              {/* Grid column */}
-            </div>
-          </section>
-          {/* Section: Copyright */}
         </div>
         {/* Grid container */}
       </footer>
