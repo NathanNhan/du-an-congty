@@ -31,6 +31,9 @@ ul>li>a {
   text-decoration: none;
   color: #FFF;
 }
+a:visited {
+  color: #FFF;
+}
 ul{
   list-style: none;
 

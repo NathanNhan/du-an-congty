@@ -4,7 +4,8 @@ const MainLayout = ({children}) => {
   return (
     <div>
       <header className="mb-5">
-        <nav className="container-fluid navigation fixed-top">
+        <nav className="container-fluid navigation fixed-top navbar navbar-expand-md">
+          
           <div className="navbar-contain container">
             <ul className="nav-left mt-4">
               <li className="first-active">
