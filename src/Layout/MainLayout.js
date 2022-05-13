@@ -1,33 +1,69 @@
 import React from 'react'
 import logo_footer from "../asset/logo_footer.png";
+import language from "../asset/language.png";
+
 const MainLayout = ({children}) => {
   return (
     <div>
       <header className="mb-5">
-        <nav className="container-fluid navigation fixed-top navbar navbar-expand-md">
-          
-          <div className="navbar-contain container">
-            <ul className="nav-left mt-4">
-              <li className="first-active">
-                <a href="#">Telehealth</a>
-              </li>
-              <li>
-                <a href="#">Medical Equipments Rental</a>
-              </li>
-              <li>
-                <a href="#">Home-care Nurses</a>
-              </li>
-            </ul>
-            <ul className="nav-right mt-4">
-              <li className="">
-                <a href="#">Contact Us</a>
-              </li>
-              <li>
-                <a href="#" className="dropdown-toggle">
-                  English
-                </a>
-              </li>
-            </ul>
+        <nav className="navbar navbar-expand-lg navbar-light fixed-top navigation">
+          <div className="container">
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon" />
+            </button>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="nav-item">
+                  <a
+                    className="nav-link active text-white"
+                    aria-current="page"
+                    href="#"
+                  >
+                    Telehealth
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-white" href="#">
+                    Medical Equipments Rental
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-white" href="#" tabIndex={-1}>
+                    Home-care Nurses
+                  </a>
+                </li>
+              </ul>
+              <div className="d-flex">
+                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li className="nav-item">
+                    <a className="nav-link text-white" href="#" tabIndex={-1}>
+                      Contact Us
+                    </a>
+                  </li>
+                  <li className="nav-item dropdown">
+                    <img src={language} alt="" className='image-size-language' />
+                    <a
+                      className="nav-link text-white dropdown-toggle"
+                      href="#"
+                      tabIndex={-1}
+                    >
+                      English
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </nav>
       </header>
@@ -53,9 +89,9 @@ const MainLayout = ({children}) => {
               {/* Grid column */}
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 {/* Links */}
-                <h6 className="text-uppercase fw-bold mb-4 text-white">
-                  Useful links
-                </h6>
+                <h4 className=" mb-4 text-white">
+                  Useful Links
+                </h4>
                 <p className="text-white">
                   <a href="#!" className="text-reset text-white">
                     Medical Equipment Rental
@@ -76,9 +112,9 @@ const MainLayout = ({children}) => {
               {/* Grid column */}
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 {/* Links */}
-                <h6 className="text-uppercase fw-bold mb-4 text-white">
+                <h4 className=" mb-4 text-white">
                   Contact
-                </h6>
+                </h4>
                 <p className="text-white">
                   <i className="fas fa-phone me-3" />
                   Phone <br /> (021) 29517888
