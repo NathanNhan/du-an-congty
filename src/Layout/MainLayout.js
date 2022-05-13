@@ -52,7 +52,11 @@ const MainLayout = ({children}) => {
                     </a>
                   </li>
                   <li className="nav-item dropdown">
-                    <img src={language} alt="" className='image-size-language' />
+                    <img
+                      src={language}
+                      alt=""
+                      className="image-size-language"
+                    />
                     <a
                       className="nav-link text-white dropdown-toggle"
                       href="#"
@@ -69,13 +73,13 @@ const MainLayout = ({children}) => {
       </header>
       {children}
       {/* Footer */}
-      <footer className="text-center text-lg-start text-muted pt-2 custom-footer mt-4">
+      <footer className="text-center text-lg-start text-muted pt-2 custom-footer mt-4 h-auto">
         <section className="">
           <div className="container text-center text-md-start mt-5 text-white">
             {/* Grid row */}
             <div className="row mt-3">
               {/* Grid column */}
-              <div className="col-lg-6 col-md-12 mb-4 mb-md-0 mx-auto mb-4 text-white">
+              <div className="col-lg-6 col-12 col-sm-12 col-md-12  mb-4 mb-md-0 mx-auto mb-4 text-white">
                 {/* Content */}
                 <img src={logo_footer} alt="" className="mb-4" />
                 <p className="text-white custom-width">
@@ -87,11 +91,9 @@ const MainLayout = ({children}) => {
 
               {/* Grid column */}
               {/* Grid column */}
-              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div className="col-lg-3 col-12 col-sm-12 col-md-12  mx-auto mb-4">
                 {/* Links */}
-                <h4 className=" mb-4 text-white">
-                  Useful Links
-                </h4>
+                <h4 className=" mb-4 text-white">Useful Links</h4>
                 <p className="text-white">
                   <a href="#!" className="text-reset text-white">
                     Medical Equipment Rental
@@ -110,11 +112,9 @@ const MainLayout = ({children}) => {
               </div>
               {/* Grid column */}
               {/* Grid column */}
-              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <div className="col-lg-3 col-12 col-sm-12 col-md-12  mx-auto mb-md-0 mb-4">
                 {/* Links */}
-                <h4 className=" mb-4 text-white">
-                  Contact
-                </h4>
+                <h4 className=" mb-4 text-white">Contact</h4>
                 <p className="text-white">
                   <i className="fas fa-phone me-3" />
                   Phone <br /> (021) 29517888
