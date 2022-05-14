@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import arow from "../asset/Fill.png";
 import Logo from "../asset/Logo_indentity.png";
 import Hero from "../asset/hero.png";
@@ -20,8 +20,18 @@ import group_icon_star from "../asset/group_606.png";
 import group_icon_star1 from "../asset/group_603.png";
 import phone_icon from "../asset/phone_icon.png";
 import ear_phone from "../asset/ear_phone.png";
- 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input";
 const HomePage = () => {
+  // `value` will be the parsed phone number in E.164 format.
+  // Example: "+12133734253".
+  const [value, setValue] = useState();
+  //show message
+  const notify = () => {
+    toast("Coming soon");
+  };
   return (
     <MainLayout>
       <main className="body">
@@ -98,7 +108,12 @@ const HomePage = () => {
                             We will contact through your phone number right
                             away!
                           </p>
-                          <input className="tel-info" type="text" />
+
+                          <PhoneInput
+                            placeholder="XXXX-XXXX-XXXX"
+                            value={value}
+                            onChange={setValue}
+                          />
                         </div>
                         <div className="footer-modal ">
                           <button className="call_me_back">
@@ -155,11 +170,12 @@ const HomePage = () => {
                         help you pick the best equipment for you & your loved
                         ones.
                       </p>
-
-                      <button className="button-cart m-auto text-white">
-                        <img src={icon_subtract} alt="" />
-                        Book an appointment
-                      </button>
+                      <a href="https://eunoiacare.co.id/">
+                        <button className="button-cart m-auto text-white">
+                          <img src={icon_subtract} alt="" />
+                          <p>Book an appointment</p>
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -176,11 +192,12 @@ const HomePage = () => {
                       <p className="mb-4 mt-2">
                         Rich selection of medical equipment to rent.
                       </p>
-
-                      <button className="button-cart m-auto text-white">
-                        <img src={icon_search} alt="" />
-                        Search Categories
-                      </button>
+                      <a href="https://eunoiacare.co.id/">
+                        <button className="button-cart m-auto text-white">
+                          <img src={icon_search} alt="" />
+                          <p>Search Categories</p>
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -199,10 +216,14 @@ const HomePage = () => {
                         well trained and caring nurses for any period of time.
                       </p>
 
-                      <button className="button-cart m-auto text-white">
+                      <button
+                        className="button-cart m-auto text-white"
+                        onClick={notify}
+                      >
                         <img src={icon_subtract_1} alt="" />
-                        Find a Nurse
+                        <p>Find a Nurse</p>
                       </button>
+                      <ToastContainer />
                     </div>
                   </div>
                 </div>

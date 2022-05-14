@@ -1,8 +1,10 @@
 import React from 'react'
 import logo_footer from "../asset/logo_footer.png";
 import language from "../asset/language.png";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const MainLayout = ({children}) => {
+  const notify = () => toast("Coming soon");
   return (
     <div>
       <header className="mb-5">
@@ -34,11 +36,14 @@ const MainLayout = ({children}) => {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white" href="#">
+                  <a
+                    className="nav-link text-white"
+                    href="https://eunoiacare.co.id/"
+                  >
                     Medical Equipments Rental
                   </a>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item" onClick={notify}>
                   <a className="nav-link text-white" href="#" tabIndex={-1}>
                     Home-care Nurses
                   </a>
