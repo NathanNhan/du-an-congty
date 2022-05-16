@@ -1,25 +1,5 @@
 import React, {useState} from "react";
-import arow from "../asset/Fill.png";
-import Logo from "../asset/Logo_indentity.png";
-import Hero from "../asset/hero.png";
-import icon from "../asset/Icon.png";
-import icon_subtract from "../asset/NEW.png";
-import circle_img from "../asset/Ellipse.png";
-import modal_phone_icon from "../asset/modal_phone_icon.png";
-import icon_heart from "../asset/icon-heart.png";
-import icon_rent from "../asset/icon_rent.png";
-import icon_search from "../asset/Icon_search.png";
-import icon_subtract_1 from "../asset/icon_subtract_2.png";
-import message from "../asset/message.png";
-import phoneCall from "../asset/phone_call.png";
-import booking from "../asset/booknow.png";
 import MainLayout from "../Layout/MainLayout";
-import logo_modal from "../asset/logo_modal.png";
-import button_close from "../asset/btn_close.png";
-import group_icon_star from "../asset/group_606.png";
-import group_icon_star1 from "../asset/group_603.png";
-import phone_icon from "../asset/phone_icon.png";
-import ear_phone from "../asset/ear_phone.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "react-phone-number-input/style.css";
@@ -35,23 +15,23 @@ const HomePage = () => {
   return (
     <MainLayout>
       <main className="body">
-        <img src={circle_img} alt="" className="image-icon-section" />
-        <img src={group_icon_star1} className="icon_star_1" alt="" />
-        <img src={group_icon_star} className="icon_start" alt="" />
+        <img src={`/asset/Ellipse.png`} alt="" className="image-icon-section" />
+        <img src={`/asset/group_603.png`} className="icon_star_1" alt="" />
+        <img src={`/asset/group_606.png`} className="icon_start" alt="" />
         <section className="bottom-nav">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 col-12 padding-nav">
-                <img src={Logo} alt="" />
+                <img src={`/asset/Logo_indentity.png`} alt="" />
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12  col-12 padding-nav">
                 <div className="button-contain">
                   <button className="btn-1">
-                    <img src={message} />
+                    <img src={`/asset/message.png`} />
                     Message
                   </button>
                   <button className="btn-2">
-                    <img src={booking} />
+                    <img src={`/asset/booknow.png`} />
                     Booking
                   </button>
                   <button
@@ -60,7 +40,7 @@ const HomePage = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    <img src={phoneCall} />
+                    <img src={`/asset/phone_call.png`} />
                     Call Clinic
                   </button>
                   <ul
@@ -68,13 +48,13 @@ const HomePage = () => {
                     aria-labelledby="dropdownMenuButton1"
                   >
                     <li className="custom-flex">
-                      <img src={phone_icon} alt="" />
+                      <img src={`/asset/phone_icon.png`} alt="" />
                       <a className="dropdown-item" href="#">
                         Call Now
                       </a>
                     </li>
                     <li className="custom-flex">
-                      <img src={ear_phone} alt="" />
+                      <img src={`/asset/ear_phone.png`} alt="" />
                       <a
                         className="dropdown-item"
                         href="#"
@@ -98,7 +78,7 @@ const HomePage = () => {
                     <div className="contain-modal">
                       <div className="wrap">
                         <div className="img-modal">
-                          <img src={logo_modal} alt="" />
+                          <img src={`/asset/logo_modal.png`} alt="" />
                         </div>
                         <div className="contatent-modal">
                           <p className="content1">
@@ -117,13 +97,13 @@ const HomePage = () => {
                         </div>
                         <div className="footer-modal ">
                           <button className="call_me_back">
-                            <img src={modal_phone_icon} alt="" />
+                            <img src={`/asset/modal_phone_icon.png`} alt="" />
                             Call me Back
                           </button>
                         </div>
                       </div>
                       <img
-                        src={button_close}
+                        src={`/asset/btn_close.png`}
                         alt=""
                         className="img_close"
                         data-bs-dismiss="modal"
@@ -138,7 +118,7 @@ const HomePage = () => {
         <section className="hero-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 col-md-12 col-sm-12 col-12 flex-wrap custom-content">
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12 custom-content">
                 <h1 className="heavy">
                   Professional medical equipment and staff for your home
                   recovery.
@@ -149,7 +129,7 @@ const HomePage = () => {
                 </p>
               </div>
               <div className="col-lg-6 col-sm-12 col-md-12 col-12 custom-hero">
-                <img src={Hero} alt="" />
+                <img src={`/asset/hero.png`} alt="" />
               </div>
             </div>
           </div>
@@ -162,7 +142,11 @@ const HomePage = () => {
                   <div className="card bg-white border-0 h-100 custom-padding">
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-gradient text-white rounded-3 mb-4 mt-4">
-                        <img src={icon} alt="" className="img-icon" />
+                        <img
+                          src={`/asset/Icon.png`}
+                          alt=""
+                          className="img-icon"
+                        />
                       </div>
                       <h2 className="fs-4 fw-bold">Tele-Consultation</h2>
                       <p className="mb-4 mt-2">
@@ -172,7 +156,7 @@ const HomePage = () => {
                       </p>
                       <a href="https://eunoiacare.co.id/">
                         <button className="button-cart m-auto text-white">
-                          <img src={icon_subtract} alt="" />
+                          <img src={`/asset/NEW.png`} alt="" />
                           <p>Book an appointment</p>
                         </button>
                       </a>
@@ -180,13 +164,17 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="img-arrow">
-                  <img src={arow} alt="" width={20} height={40} />
+                  <img src={`/asset/Fill.png`} alt="" width={20} height={40} />
                 </div>
                 <div className="col-lg-6 col-xxl-4 mb-5">
                   <div className="card bg-white border-0 h-100 custom-padding">
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-gradient text-white rounded-3 mb-4 mt-4">
-                        <img src={icon_rent} alt="" className="img-icon" />
+                        <img
+                          src={`/asset/icon_rent.png`}
+                          alt=""
+                          className="img-icon"
+                        />
                       </div>
                       <h2 className="fs-4 fw-bold">Medical Equipment Rental</h2>
                       <p className="mb-4 mt-2">
@@ -194,7 +182,7 @@ const HomePage = () => {
                       </p>
                       <a href="https://eunoiacare.co.id/">
                         <button className="button-cart m-auto text-white">
-                          <img src={icon_search} alt="" />
+                          <img src={`/asset/Icon_search.png`} alt="" />
                           <p>Search Categories</p>
                         </button>
                       </a>
@@ -202,13 +190,17 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="img-arrow">
-                  <img src={arow} alt="" />
+                  <img src={`/asset/Fill.png`} alt="" />
                 </div>
                 <div className="col-lg-6 col-xxl-4 mb-5">
                   <div className="card bg-white border-0 h-100 custom-padding">
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-gradient text-white rounded-3 mb-4 mt-4">
-                        <img src={icon_heart} alt="" className="img-icon" />
+                        <img
+                          src={`/asset/icon-heart.png`}
+                          alt=""
+                          className="img-icon"
+                        />
                       </div>
                       <h2 className="fs-4 fw-bold">Homecare Nurses</h2>
                       <p className="mb-4 mt-2">
@@ -220,7 +212,7 @@ const HomePage = () => {
                         className="button-cart m-auto text-white"
                         onClick={notify}
                       >
-                        <img src={icon_subtract_1} alt="" />
+                        <img src={`/asset/icon_subtract_2.png`} alt="" />
                         <p>Find a Nurse</p>
                       </button>
                       <ToastContainer />

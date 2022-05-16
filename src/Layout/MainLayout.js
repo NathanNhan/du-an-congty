@@ -1,14 +1,12 @@
 import React from 'react'
-import logo_footer from "../asset/logo_footer.png";
-import language from "../asset/language.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const MainLayout = ({children}) => {
   const notify = () => toast("Coming soon");
   return (
     <div>
-      <header className="mb-5">
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top navigation">
+      <header>
+        <nav className="navbar navbar-expand-lg navbar-light navigation">
           <div className="container">
             <button
               className="navbar-toggler"
@@ -26,7 +24,7 @@ const MainLayout = ({children}) => {
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
+                <li className="nav-item first-item">
                   <a
                     className="nav-link active text-white"
                     aria-current="page"
@@ -58,7 +56,7 @@ const MainLayout = ({children}) => {
                   </li>
                   <li className="nav-item dropdown">
                     <img
-                      src={language}
+                      src={`/asset/language.png`}
                       alt=""
                       className="image-size-language"
                     />
@@ -78,7 +76,7 @@ const MainLayout = ({children}) => {
       </header>
       {children}
       {/* Footer */}
-      <footer className="text-center text-lg-start text-muted pt-2 custom-footer mt-4 h-auto">
+      <footer className="text-center text-lg-start text-muted pt-1 pb-4 custom-footer mt-2 h-auto">
         <section className="">
           <div className="container text-center text-md-start mt-5 text-white">
             {/* Grid row */}
@@ -86,7 +84,7 @@ const MainLayout = ({children}) => {
               {/* Grid column */}
               <div className="col-lg-6 col-12 col-sm-12 col-md-12  mb-4 mb-md-0 mx-auto mb-4 text-white">
                 {/* Content */}
-                <img src={logo_footer} alt="" className="mb-4" />
+                <img src={`/asset/logo_footer.png`} alt="" className="mb-4" />
                 <p className="text-white custom-width">
                   Donec ipsum, elit id sed. Elit natoque lectus odio aenean
                   egestas integer gravida sagittis hendrerit. Ut hendrerit est
@@ -120,17 +118,17 @@ const MainLayout = ({children}) => {
               <div className="col-lg-3 col-12 col-sm-12 col-md-12  mx-auto mb-md-0 mb-4">
                 {/* Links */}
                 <h4 className=" mb-4 text-white">Contact</h4>
-                <p className="text-white">
-                  <i className="fas fa-phone me-3" />
+                <p className="text-white color-gray">
+                  <img src={`/asset/phonecall_footer.png`} className='icon-footer' />
                   Phone <br /> (021) 29517888
                 </p>
-                <p className="text-white">
-                  <i className="fas fa-envelope me-3" />
+                <p className="text-white color-gray">
+                  <img src={`/asset/mail_footer.png`} className='icon-footer' />
                   Email <br />
                   Johny@Semestamedika.com
                 </p>
-                <p className="text-white">
-                  <i className="fas fa-home me-3" />
+                <p className="text-white color-gray">
+                  <img src={`/asset/location_footer.png`} className='icon-footer' />
                   Address
                   <br /> JI. Kamal Raya Outer Ring Road Mutiara Taman Palem Blok
                   A2 No 28 Cengkareng – Jakarta Barat 11730
