@@ -137,8 +137,8 @@ const HomePage = () => {
         <section className="three-card">
           <div className="container">
             <div className="row">
-              <div className="contain-card flex-wrap">
-                <div className="col-lg-6 col-xxl-4 mb-5">
+              <div className="contain-card">
+                <div className="col-lg-4 col-md-6 col-xxl-4 mb-5">
                   <div className="card bg-white border-0 h-100 custom-padding">
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-gradient text-white rounded-3 mb-4 mt-4">
@@ -148,12 +148,14 @@ const HomePage = () => {
                           className="img-icon"
                         />
                       </div>
-                      <h2 className="fs-4 fw-bold">Tele-Consultation</h2>
-                      <p className="mb-4 mt-2">
-                        Join a teleconsult with our medically trained staff to
-                        help you pick the best equipment for you & your loved
-                        ones.
-                      </p>
+                      <div className="wrap-content-middle">
+                        <h2 className="fs-4 fw-bold">Tele-Consultation</h2>
+                        <p className="mb-4 mt-2">
+                          Join a teleconsult with our medically trained staff to
+                          help you pick the best equipment for you & your loved
+                          ones.
+                        </p>
+                      </div>
                       <a href="https://eunoiacare.co.id/">
                         <button className="button-cart m-auto text-white">
                           <img src={`/asset/NEW.png`} alt="" />
@@ -166,7 +168,7 @@ const HomePage = () => {
                 <div className="img-arrow">
                   <img src={`/asset/Fill.png`} alt="" width={20} height={40} />
                 </div>
-                <div className="col-lg-6 col-xxl-4 mb-5">
+                <div className="col-lg-4 col-md-6 col-xxl-4 mb-5">
                   <div className="card bg-white border-0 h-100 custom-padding">
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-gradient text-white rounded-3 mb-4 mt-4">
@@ -176,10 +178,15 @@ const HomePage = () => {
                           className="img-icon"
                         />
                       </div>
-                      <h2 className="fs-4 fw-bold">Medical Equipment Rental</h2>
-                      <p className="mb-4 mt-2">
-                        Rich selection of medical equipment to rent.
-                      </p>
+                      <div className="wrap-content-middle">
+                        <h2 className="fs-4 fw-bold">
+                          Medical Equipment Rental
+                        </h2>
+                        <p className="mb-4 mt-2">
+                          Rich selection of medical equipment to rent.
+                        </p>
+                      </div>
+
                       <a href="https://eunoiacare.co.id/">
                         <button className="button-cart m-auto text-white">
                           <img src={`/asset/Icon_search.png`} alt="" />
@@ -192,7 +199,7 @@ const HomePage = () => {
                 <div className="img-arrow">
                   <img src={`/asset/Fill.png`} alt="" />
                 </div>
-                <div className="col-lg-6 col-xxl-4 mb-5">
+                <div className="col-lg-4 col-md-6 col-xxl-4 mb-5">
                   <div className="card bg-white border-0 h-100 custom-padding">
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-gradient text-white rounded-3 mb-4 mt-4">
@@ -202,11 +209,14 @@ const HomePage = () => {
                           className="img-icon"
                         />
                       </div>
-                      <h2 className="fs-4 fw-bold">Homecare Nurses</h2>
-                      <p className="mb-4 mt-2">
-                        If you need professional help visit our website to hire
-                        well trained and caring nurses for any period of time.
-                      </p>
+                      <div className="wrap-content-middle">
+                        <h2 className="fs-4 fw-bold">Homecare Nurses</h2>
+                        <p className="mb-4 mt-2">
+                          If you need professional help visit our website to hire
+                          well trained and caring nurses for any period of time.
+                        </p>
+
+                      </div>
 
                       <button
                         className="button-cart m-auto text-white"

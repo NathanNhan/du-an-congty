@@ -387,5 +387,26 @@ button.btn-1 {
 	background: #FFFFFF;
 	border: 1px solid #D4D1D9;
 }
+.wrap-content-middle {
+    height: 130px!important;
+}
+.col-lg-4.col-xxl-4.mb-5 {
+    width: 397.33px!important;
+}
+
+
+@media (max-width: 800px) {
+  .contain-card {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+// @media (max-width: 820px) {
+//   .contain-card {
+    
+// 	flex-wrap: wrap;
+//   }
+// }
 
 
