@@ -408,6 +408,7 @@ button.button-cart.m-auto.text-white {
     width: 268px;
     height: 44px;
 }
+//responsive for phone
 
 @media only screen and (max-width: 600px) {
 	.padding-nav {
@@ -419,6 +420,14 @@ button.button-cart.m-auto.text-white {
 	}
 
 }
+//responsive for tablet
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.img-arrow {
+		padding-bottom: 40px;
+	}
+
+}
+
 @media only screen and (max-width: 800px) {p.text-white.color-gray {
     flex-direction: column;
     justify-content: center;
