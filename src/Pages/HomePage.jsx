@@ -89,11 +89,15 @@ const HomePage = () => {
                             away!
                           </p>
 
-                          <PhoneInput
-                            placeholder="XXXX-XXXX-XXXX"
-                            value={value}
-                            onChange={setValue}
-                          />
+                          <div className="sdt">
+                            <img src="/asset/hinhco.png" alt="" />
+                            <img src="/asset/muiten.png" alt="" />
+                            <img src="/asset/line.png" alt="" />
+                            <img src="/asset/xxx.png" alt="" />
+
+                          </div>
+                          
+                        
                         </div>
                         <div className="footer-modal ">
                           <button className="call_me_back">

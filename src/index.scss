@@ -403,6 +403,63 @@ button.btn-1 {
   }
 }
 
+//chinh kich thuoc button
+button.button-cart.m-auto.text-white {
+    width: 268px;
+    height: 44px;
+}
+
+@media only screen and (max-width: 600px) {
+	.padding-nav {
+		margin: 20px 10px;
+
+	}
+	.img-arrow {
+		padding-bottom: 40px;
+	}
+
+}
+@media only screen and (max-width: 800px) {p.text-white.color-gray {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}}
+
+// code input phone
+
+.sdt{
+	box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px;
+gap: 12px;
+
+width: 391px;
+height: 48px;
+
+/* Neutral/White */
+
+background: #FFFFFF;
+/* Neutral/5 */
+
+border: 1px solid #D4D1D9;
+border-radius: 6px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+
+
 
 
 
