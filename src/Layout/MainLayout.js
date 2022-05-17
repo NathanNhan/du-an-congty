@@ -6,7 +6,7 @@ const MainLayout = ({children}) => {
   return (
     <div>
       <header>
-        <nav className="navbar navbar-expand-lg navbar-light navigation">
+        <nav className="navbar navbar-expand-lg navbar-dark navigation">
           <div className="container">
             <button
               className="navbar-toggler"
