@@ -470,6 +470,9 @@ flex-grow: 0;
 .input-field {
 	border: none;
 }
+input:focus {
+	outline: none;
+}
 
 
 
