@@ -93,7 +93,7 @@ const HomePage = () => {
                             <img src="/asset/hinhco.png" alt="" />
                             <img src="/asset/muiten.png" alt="" />
                             <img src="/asset/line.png" alt="" />
-                            <img src="/asset/xxx.png" alt="" />
+                            <input type="tel" placeholder="xxxx-xxxx-xxxx" className="input-field" />
                           </div>
                         </div>
                         <div className="footer-modal ">
