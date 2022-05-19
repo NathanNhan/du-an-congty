@@ -93,11 +93,8 @@ const HomePage = () => {
                             <img src="/asset/hinhco.png" alt="" />
                             <img src="/asset/muiten.png" alt="" />
                             <img src="/asset/line.png" alt="" />
-                            <img src="/asset/xxx.png" alt="" />
-
+                            <input type="tel" placeholder="xxxx-xxxx-xxxx" className="input-field" />
                           </div>
-                          
-                        
                         </div>
                         <div className="footer-modal ">
                           <button className="call_me_back">
@@ -142,7 +139,7 @@ const HomePage = () => {
           <div className="container">
             <div className="row">
               <div className="contain-card">
-                <div className="col-lg-4 col-md-6 col-xxl-4 mb-5">
+                <div className=" col-lg-12 col-md-12 col-sm-12 col-12 col-xl-4 col-xxl-4 mb-5">
                   <div className="card bg-white border-0 h-100 custom-padding">
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-gradient text-white rounded-3 mb-4 mt-4">
@@ -172,7 +169,7 @@ const HomePage = () => {
                 <div className="img-arrow">
                   <img src={`/asset/Fill.png`} alt="" width={20} height={40} />
                 </div>
-                <div className="col-lg-4 col-md-6 col-xxl-4 mb-5">
+                <div className=" col-lg-12 col-md-12 col-sm-12 col-12 col-xl-4 col-xxl-4 mb-5">
                   <div className="card bg-white border-0 h-100 custom-padding">
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-gradient text-white rounded-3 mb-4 mt-4">
@@ -203,7 +200,7 @@ const HomePage = () => {
                 <div className="img-arrow">
                   <img src={`/asset/Fill.png`} alt="" />
                 </div>
-                <div className="col-lg-4 col-md-6 col-xxl-4 mb-5">
+                <div className=" col-lg-12 col-md-12 col-sm-12 col-12 col-xl-4 col-xxl-4 mb-5">
                   <div className="card bg-white border-0 h-100 custom-padding">
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-gradient text-white rounded-3 mb-4 mt-4">
@@ -216,10 +213,10 @@ const HomePage = () => {
                       <div className="wrap-content-middle">
                         <h2 className="fs-4 fw-bold">Homecare Nurses</h2>
                         <p className="mb-4 mt-2">
-                          If you need professional help visit our website to hire
-                          well trained and caring nurses for any period of time.
+                          If you need professional help visit our website to
+                          hire well trained and caring nurses for any period of
+                          time.
                         </p>
-
                       </div>
 
                       <button

@@ -217,12 +217,14 @@ ul.dropdown-menu.show>li {
 	font-size: 20px;
 	color: #050020;
 	line-height: 120%!important;
+	margin-bottom: 12px!important;
 }
 .content2 {
 	color: #6C6971;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 150%!important;
+	margin-bottom: 32px!important;
 }
 .call_me_back {
 	display: flex;
@@ -408,10 +410,11 @@ button.button-cart.m-auto.text-white {
     width: 268px;
     height: 44px;
 }
+//responsive for phone
 
 @media only screen and (max-width: 600px) {
 	.padding-nav {
-		margin: 20px 10px;
+		margin: 20px 13px;
 
 	}
 	.img-arrow {
@@ -421,6 +424,14 @@ button.button-cart.m-auto.text-white {
 		width: 97%;
 	}
 }
+//responsive for tablet
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.img-arrow {
+		padding-bottom: 40px;
+	}
+
+}
+
 @media only screen and (max-width: 800px) {p.text-white.color-gray {
     flex-direction: column;
     justify-content: center;
@@ -457,6 +468,12 @@ flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
+}
+.input-field {
+	border: none;
+}
+input:focus {
+	outline: none;
 }
 
 
