@@ -64,9 +64,23 @@ const MainLayout = ({children}) => {
                       className="nav-link text-white dropdown-toggle"
                       href="#"
                       tabIndex={-1}
+                      id="dropdownMenuButton1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
                     >
                       English
                     </a>
+                    <ul
+                      className="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton1"
+                    >
+                      <li>
+                        <a className="dropdown-item">English</a>
+                      </li>
+                      <li>
+                        <a className="dropdown-item">Bahasa</a>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>
@@ -119,16 +133,22 @@ const MainLayout = ({children}) => {
                 {/* Links */}
                 <h4 className=" mb-4 text-white">Contact</h4>
                 <p className="text-white color-gray">
-                  <img src={`/asset/phonecall_footer.png`} className='icon-footer' />
+                  <img
+                    src={`/asset/phonecall_footer.png`}
+                    className="icon-footer"
+                  />
                   Phone <br /> (021) 29517888
                 </p>
                 <p className="text-white color-gray">
-                  <img src={`/asset/mail_footer.png`} className='icon-footer' />
+                  <img src={`/asset/mail_footer.png`} className="icon-footer" />
                   Email <br />
                   Johny@Semestamedika.com
                 </p>
                 <p className="text-white color-gray">
-                  <img src={`/asset/location_footer.png`} className='icon-footer' />
+                  <img
+                    src={`/asset/location_footer.png`}
+                    className="icon-footer"
+                  />
                   Address
                   <br /> JI. Kamal Raya Outer Ring Road Mutiara Taman Palem Blok
                   A2 No 28 Cengkareng – Jakarta Barat 11730

@@ -93,7 +93,11 @@ const HomePage = () => {
                             <img src="/asset/hinhco.png" alt="" />
                             <img src="/asset/muiten.png" alt="" />
                             <img src="/asset/line.png" alt="" />
-                            <input type="tel" placeholder="xxxx-xxxx-xxxx" className="input-field" />
+                            <input
+                              type="tel"
+                              placeholder="xxxx-xxxx-xxxx"
+                              className="input-field"
+                            />
                           </div>
                         </div>
                         <div className="footer-modal ">
@@ -119,7 +123,7 @@ const HomePage = () => {
         <section className="hero-section">
           <div className="container">
             <div className="row">
-              <div className="col-lg-6 col-md-12 col-sm-12 col-12 custom-content">
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12 order-last order-md-first  custom-content">
                 <h1 className="heavy">
                   Professional medical equipment and staff for your home
                   recovery.
@@ -129,7 +133,7 @@ const HomePage = () => {
                   make a mistake.
                 </p>
               </div>
-              <div className="col-lg-6 col-sm-12 col-md-12 col-12 custom-hero">
+              <div className="col-lg-6 col-sm-12 col-md-12 col-12 order-first order-md-last  custom-hero">
                 <img src={`/asset/hero.png`} alt="" />
               </div>
             </div>

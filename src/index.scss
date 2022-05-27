@@ -354,6 +354,14 @@ button.btn-1 {
   .icon_start {
 	  display: none!important;
   }
+  .img-arrow img {
+    transform: rotate(90deg);
+}
+li.nav-item.first-item {
+    text-align: left;
+    background: #FFFFFF;
+    padding: 0px!important;
+}
 }
 
 
@@ -361,6 +369,11 @@ button.btn-1 {
   .image-icon-section {
 	  margin-top: 30px;
   }
+  h1.heavy {
+    font-size: 32px!important;
+}
+  
+
 }
 
 .PhoneInput {
