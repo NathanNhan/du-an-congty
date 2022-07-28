@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/du-an-congty/static/css/main.6ff04547.css",
+    "main.js": "/du-an-congty/static/js/main.0c06c30c.js",
+    "index.html": "/du-an-congty/index.html",
+    "main.6ff04547.css.map": "/du-an-congty/static/css/main.6ff04547.css.map",
+    "main.0c06c30c.js.map": "/du-an-congty/static/js/main.0c06c30c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ff04547.css",
+    "static/js/main.0c06c30c.js"
+  ]
+}
