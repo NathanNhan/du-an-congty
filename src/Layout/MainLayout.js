@@ -56,7 +56,7 @@ const MainLayout = ({children}) => {
                   </li>
                   <li className="nav-item dropdown">
                     <img
-                      src={`/asset/language.png`}
+                      src={`https://nathannhan.github.io/du-an-congty/language.png`}
                       alt=""
                       className="image-size-language"
                     />
@@ -98,7 +98,7 @@ const MainLayout = ({children}) => {
               {/* Grid column */}
               <div className="col-lg-6 col-12 col-sm-12 col-md-12  mb-4 mb-md-0 mx-auto mb-4 text-white">
                 {/* Content */}
-                <img src={`/asset/logo_footer.png`} alt="" className="mb-4" />
+                <img src={`https://nathannhan.github.io/du-an-congty/logo_footer.png`} alt="" className="mb-4" />
                 <p className="text-white custom-width">
                   Donec ipsum, elit id sed. Elit natoque lectus odio aenean
                   egestas integer gravida sagittis hendrerit. Ut hendrerit est
@@ -134,19 +134,19 @@ const MainLayout = ({children}) => {
                 <h4 className=" mb-4 text-white">Contact</h4>
                 <p className="text-white color-gray">
                   <img
-                    src={`/asset/phonecall_footer.png`}
+                    src={`https://nathannhan.github.io/du-an-congty/phonecall_footer.png`}
                     className="icon-footer"
                   />
                   Phone <br /> (021) 29517888
                 </p>
                 <p className="text-white color-gray">
-                  <img src={`/asset/mail_footer.png`} className="icon-footer" />
+                  <img src={`https://nathannhan.github.io/du-an-congty/mail_footer.png`} className="icon-footer" />
                   Email <br />
                   Johny@Semestamedika.com
                 </p>
                 <p className="text-white color-gray">
                   <img
-                    src={`/asset/location_footer.png`}
+                    src={`https://nathannhan.github.io/du-an-congty/location_footer.png`}
                     className="icon-footer"
                   />
                   Address
