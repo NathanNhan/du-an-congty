@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/du-an-congty/static/css/main.6ff04547.css",
-    "main.js": "/du-an-congty/static/js/main.f0f72c59.js",
+    "main.js": "/du-an-congty/static/js/main.57a0c011.js",
     "index.html": "/du-an-congty/index.html",
     "main.6ff04547.css.map": "/du-an-congty/static/css/main.6ff04547.css.map",
-    "main.f0f72c59.js.map": "/du-an-congty/static/js/main.f0f72c59.js.map"
+    "main.57a0c011.js.map": "/du-an-congty/static/js/main.57a0c011.js.map"
   },
   "entrypoints": [
     "static/css/main.6ff04547.css",
-    "static/js/main.f0f72c59.js"
+    "static/js/main.57a0c011.js"
   ]
 }
