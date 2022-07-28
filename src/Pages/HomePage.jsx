@@ -15,23 +15,23 @@ const HomePage = () => {
   return (
     <MainLayout>
       <main className="body">
-        <img src={`https://nathannhan.github.io/du-an-congty/Ellipse.png`} alt="" className="image-icon-section" />
-        <img src={`https://nathannhan.github.io/du-an-congty/group_603.png`} className="icon_star_1" alt="" />
-        <img src={`https://nathannhan.github.io/du-an-congty/group_606.png`} className="icon_start" alt="" />
+        <img src={`https://nathannhan.github.io/du-an-congty/asset/Ellipse.png`} alt="" className="image-icon-section" />
+        <img src={`https://nathannhan.github.io/du-an-congty/asset/group_603.png`} className="icon_star_1" alt="" />
+        <img src={`https://nathannhan.github.io/du-an-congty/asset/group_606.png`} className="icon_start" alt="" />
         <section className="bottom-nav">
           <div className="container">
             <div className="row">
               <div className="col-lg-6 col-md-12 col-sm-12 col-12 padding-nav">
-                <img src={`https://nathannhan.github.io/du-an-congty/Logo_indentity.png`} alt="" />
+                <img src={`https://nathannhan.github.io/du-an-congty/asset/Logo_indentity.png`} alt="" />
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12  col-12 padding-nav">
                 <div className="button-contain">
                   <button className="btn-1">
-                    <img src={`https://nathannhan.github.io/du-an-congty/message.png`} />
+                    <img src={`https://nathannhan.github.io/du-an-congty/asset/message.png`} />
                     Message
                   </button>
                   <button className="btn-2">
-                    <img src={`https://nathannhan.github.io/du-an-congty/booknow.png`} />
+                    <img src={`https://nathannhan.github.io/du-an-congty/asset/booknow.png`} />
                     Booking
                   </button>
                   <button
@@ -40,7 +40,7 @@ const HomePage = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    <img src={`https://nathannhan.github.io/du-an-congty/phone_call.png`} />
+                    <img src={`https://nathannhan.github.io/du-an-congty/asset/phone_call.png`} />
                     Call Clinic
                   </button>
                   <ul
@@ -48,13 +48,13 @@ const HomePage = () => {
                     aria-labelledby="dropdownMenuButton1"
                   >
                     <li className="custom-flex">
-                      <img src={`https://nathannhan.github.io/du-an-congty/phone_icon.png`} alt="" />
+                      <img src={`https://nathannhan.github.io/du-an-congty/asset/phone_icon.png`} alt="" />
                       <a className="dropdown-item" href="#">
                         Call Now
                       </a>
                     </li>
                     <li className="custom-flex">
-                      <img src={`https://nathannhan.github.io/du-an-congty/ear_phone.png`} alt="" />
+                      <img src={`https://nathannhan.github.io/du-an-congty/asset/ear_phone.png`} alt="" />
                       <a
                         className="dropdown-item"
                         href="#"
@@ -78,7 +78,7 @@ const HomePage = () => {
                     <div className="contain-modal">
                       <div className="wrap">
                         <div className="img-modal">
-                          <img src={`https://nathannhan.github.io/du-an-congty/logo_modal.png`} alt="" />
+                          <img src={`https://nathannhan.github.io/du-an-congty/asset/logo_modal.png`} alt="" />
                         </div>
                         <div className="contatent-modal">
                           <p className="content1">
@@ -90,9 +90,9 @@ const HomePage = () => {
                           </p>
 
                           <div className="sdt">
-                            <img src="https://nathannhan.github.io/du-an-congty/hinhco.png" alt="" />
-                            <img src="https://nathannhan.github.io/du-an-congty/muiten.png" alt="" />
-                            <img src="https://nathannhan.github.io/du-an-congty/line.png" alt="" />
+                            <img src="https://nathannhan.github.io/du-an-congty/asset/hinhco.png" alt="" />
+                            <img src="https://nathannhan.github.io/du-an-congty/asset/muiten.png" alt="" />
+                            <img src="https://nathannhan.github.io/du-an-congty/asset/line.png" alt="" />
                             <input
                               type="tel"
                               placeholder="xxxx-xxxx-xxxx"
@@ -102,13 +102,13 @@ const HomePage = () => {
                         </div>
                         <div className="footer-modal ">
                           <button className="call_me_back">
-                            <img src={`https://nathannhan.github.io/du-an-congty/modal_phone_icon.png`} alt="" />
+                            <img src={`https://nathannhan.github.io/du-an-congty/asset/modal_phone_icon.png`} alt="" />
                             Call me Back
                           </button>
                         </div>
                       </div>
                       <img
-                        src={`https://nathannhan.github.io/du-an-congty/btn_close.png`}
+                        src={`https://nathannhan.github.io/du-an-congty/asset/btn_close.png`}
                         alt=""
                         className="img_close"
                         data-bs-dismiss="modal"
@@ -134,7 +134,7 @@ const HomePage = () => {
                 </p>
               </div>
               <div className="col-lg-6 col-sm-12 col-md-12 col-12 order-first order-md-last  custom-hero">
-                <img src={`https://nathannhan.github.io/du-an-congty/hero.png`} alt="" />
+                <img src={`https://nathannhan.github.io/du-an-congty/asset/hero.png`} alt="" />
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@ const HomePage = () => {
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-gradient text-white rounded-3 mb-4 mt-4">
                         <img
-                          src={`https://nathannhan.github.io/du-an-congty/Icon.png`}
+                          src={`https://nathannhan.github.io/du-an-congty/asset/Icon.png`}
                           alt=""
                           className="img-icon"
                         />
@@ -163,7 +163,7 @@ const HomePage = () => {
                       </div>
                       <a href="https://eunoiacare.co.id/">
                         <button className="button-cart m-auto text-white">
-                          <img src={`https://nathannhan.github.io/du-an-congty/NEW.png`} alt="" />
+                          <img src={`https://nathannhan.github.io/du-an-congty/asset/NEW.png`} alt="" />
                           <p>Book an appointment</p>
                         </button>
                       </a>
@@ -171,14 +171,14 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="img-arrow">
-                  <img src={`https://nathannhan.github.io/du-an-congty/Fill.png`} alt="" width={20} height={40} />
+                  <img src={`https://nathannhan.github.io/du-an-congty/asset/Fill.png`} alt="" width={20} height={40} />
                 </div>
                 <div className=" col-lg-12 col-md-12 col-sm-12 col-12 col-xl-4 col-xxl-4 mb-5">
                   <div className="card bg-white border-0 h-100 custom-padding">
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-gradient text-white rounded-3 mb-4 mt-4">
                         <img
-                          src={`https://nathannhan.github.io/du-an-congty/icon_rent.png`}
+                          src={`https://nathannhan.github.io/du-an-congty/asset/icon_rent.png`}
                           alt=""
                           className="img-icon"
                         />
@@ -194,7 +194,7 @@ const HomePage = () => {
 
                       <a href="https://eunoiacare.co.id/">
                         <button className="button-cart m-auto text-white">
-                          <img src={`https://nathannhan.github.io/du-an-congty/Icon_search.png`} alt="" />
+                          <img src={`https://nathannhan.github.io/du-an-congty/asset/Icon_search.png`} alt="" />
                           <p>Search Categories</p>
                         </button>
                       </a>
@@ -202,14 +202,14 @@ const HomePage = () => {
                   </div>
                 </div>
                 <div className="img-arrow">
-                  <img src={`https://nathannhan.github.io/du-an-congty/Fill.png`} alt="" />
+                  <img src={`https://nathannhan.github.io/du-an-congty/asset/Fill.png`} alt="" />
                 </div>
                 <div className=" col-lg-12 col-md-12 col-sm-12 col-12 col-xl-4 col-xxl-4 mb-5">
                   <div className="card bg-white border-0 h-100 custom-padding">
                     <div className="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                       <div className="feature bg-gradient text-white rounded-3 mb-4 mt-4">
                         <img
-                          src={`https://nathannhan.github.io/du-an-congty/icon-heart.png`}
+                          src={`https://nathannhan.github.io/du-an-congty/asset/icon-heart.png`}
                           alt=""
                           className="img-icon"
                         />
@@ -227,7 +227,7 @@ const HomePage = () => {
                         className="button-cart m-auto text-white"
                         onClick={notify}
                       >
-                        <img src={`https://nathannhan.github.io/du-an-congty/icon_subtract_2.png`} alt="" />
+                        <img src={`https://nathannhan.github.io/du-an-congty/asset/icon_subtract_2.png`} alt="" />
                         <p>Find a Nurse</p>
                       </button>
                       <ToastContainer />
